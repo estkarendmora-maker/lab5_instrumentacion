@@ -34,9 +34,13 @@ Error porcentual = (error absoluto / valor simulado) × 100
 Las pruebas siguieron este orden:
 
 *Bradicardia (40 lpm, SpO₂ 95 %): comparación de valores y registro de la onda.
+
 *Límite inferior de SpO₂ ajustado a 90 %, luego simulación de 80 lpm y SpO₂ 85 %: se contaron 5 s y se verificó la alarma sonora y visual.
+
 *Límite superior de SpO₂ ajustado a 97 %, luego simulación de SpO₂ 99 % con baja perfusión: se contaron 5 s, se verificó la alarma y se observó si la onda se distorsionaba.
+
 *SpO₂ 98 % con taquicardia (140 lpm): se registró la onda y se verificó si se disparaba la alarma de frecuencia elevada.
+
 *Documentar el procedimiento y los resultados en un repositorio de GitHub con trabajo colaborativo.
 
 ## Parte A
