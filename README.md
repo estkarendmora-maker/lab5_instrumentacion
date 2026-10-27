@@ -105,7 +105,11 @@ El manual de Mindray también establece especificaciones propias para las medici
 
 ## Bibliografia
 [1] Shenzhen Mindray Bio-Medical Electronics Co., Ltd., uMEC10/uMEC12/uMEC15 Patient Monitor Operator’s Manual, ene. 2016. [En línea]. 
+
 [2] Pronk Technologies, OxSim SpO₂ Simulator: Operator’s Manual, Rev. O, 18 jul. 2017. [En línea]. 
+
 [3] Pronk Technologies, “OX-1 OxSim® Optical SpO₂ Pulse Oximeter Simulator,” ficha técnica del fabricante. [En línea]. 
+
 [4] International Organization for Standardization (ISO), ISO 80601-2-61:2026: Medical electrical equipment—Part 2-61: Particular requirements for basic safety and essential performance of pulse oximeter equipment, 3.ª ed., abr. 2026. [En línea]. 
+
 [5] U.S. Food and Drug Administration (FDA), “Pulse Oximeters,” información sobre el uso, la precisión y las limitaciones de los pulsioxímetros. [En línea].
