@@ -60,7 +60,8 @@ Frecuencia de pulso (PR): los latidos por minuto percibidos ópticamente. Se sim
 Índice de perfusión (PI): la relación entre la señal pulsátil y la no pulsátil. En el Modo 5 es ≈ 0,2, que representa baja perfusión.
 c. En el ámbito clínico ¿Cuáles son las tolerancias o errores máximos permitidos (EMP) para cada parámetro fisiológico mencionado en la parte (b)?
 
-<img width="1057" height="300" alt="image" src="https://github.com/user-attachments/assets/509059ff-7bd6-485c-8e08-d1f3297ee5d8" />
+<img width="1056" height="166" alt="image" src="https://github.com/user-attachments/assets/810076b2-6e86-43d9-9b5f-58ae5159915a" />
+
 El datasheet del uMEC 100 declara que el módulo de SpO₂ cumple la norma ISO 80601-2-61 y tiene una exactitud de ±2 % en adultos y pediátricos y ±3 % en neonatos entre 70 y 100 %. La precisión para pulso es de ±3 lpm entre 20 y 300 lpm cuando proviene de SpO₂. La exactitud de ±1 lpm o ±1 % para frecuencia cardíaca aparece en los datasheets de la familia (±1 lpm o ±1 %, el mayor). Verifícala en la sección ECG del datasheet del uMEC 100, porque yo la leí en documentos de modelos hermanos. 
 fd604b9f 5f6f 4df2 970d 70f284a1a772 1784126750597
  +2
