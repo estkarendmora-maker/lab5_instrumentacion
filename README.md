@@ -48,7 +48,7 @@ Las pruebas siguieron este orden:
 a. ¿Cómo colocar el uMEC 100 en modo “monitor”?
 
 El modo de monitoreo es el modo clínico más usado para vigilar pacientes. No requiere ningún comando: el uMEC 100 entra en él automáticamente al encenderse. El manual describe otros tres modos que se deben distinguir de este:
-<img width="1062" height="506" alt="image" src="https://github.com/user-attachments/assets/93c52a61-f65a-42f2-a758-c1a7c0eb5c42" />
+<img width="1062" height="466" alt="image" src="https://github.com/user-attachments/assets/cb51a03c-4273-446c-9826-5d2b5ccb4caa" />
 
 
 b. ¿Qué tipo de parámetros o variables fisiológicas pueden simularse con el Pronk OxSim OX-1? Explique cada uno?
