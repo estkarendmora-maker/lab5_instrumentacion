@@ -35,7 +35,7 @@ Posteriormente, se conectó el sensor de pulsioximetría al simulador OxSim OX-1
 
 Una vez preparado el montaje, se observaron en la pantalla del uMEC 100 los valores de SpO₂ y frecuencia del pulso, junto con la forma de onda fotopletismográfica. Se registraron los valores mostrados para compararlos con los valores de referencia establecidos por el simulador.
 
-## 3.2. Configuración y verificación de las variables
+##  Configuración y verificación de las variables
 
 Se configuraron diferentes escenarios de simulación de acuerdo con la guía de laboratorio: una condición de SpO₂ de 95 % y frecuencia del pulso de 40 bpm; una condición de SpO₂ de 85 % y frecuencia de 80 bpm; una condición de SpO₂ de 99 % con baja perfusión; y una condición de frecuencia del pulso de 140 bpm con SpO₂ de 98 %.
 
@@ -43,7 +43,7 @@ Para verificar las alarmas, se establecieron los límites de SpO₂ indicados en
 
 En cada escenario se registró si la alarma visual y sonora se activó, así como el tiempo transcurrido hasta su aparición. También se observó si la forma de onda fotopletismográfica presentó cambios o distorsiones durante las simulaciones.
 
-## 3.3. Cálculo de errores
+## Cálculo de errores
 
 Para comparar los valores indicados por el monitor con los valores de referencia del simulador, se emplearon el error absoluto y el error porcentual. El error absoluto se calculó mediante la diferencia entre el valor medido y el valor de referencia, mientras que el error porcentual se obtuvo al dividir el error absoluto entre el valor de referencia y multiplicar el resultado por 100.
 
