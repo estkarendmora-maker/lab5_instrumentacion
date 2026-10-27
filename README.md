@@ -16,8 +16,7 @@ Para el desarrollo de la práctica se empleó el simulador OxSim OX-1, que gener
 Finalmente, se analizó la respuesta del monitor ante los límites de alarma establecidos y se consideró la diferencia entre los valores de referencia del simulador y las lecturas obtenidas. Esta práctica permitió relacionar los conocimientos de instrumentación biomédica, medición fisiológica y verificación funcional de equipos médicos, reconociendo la importancia de evaluar su desempeño antes de utilizarlos en un entorno asistencial.
 
 Objetivo general
-
--Evaluar el funcionamiento de un monitor de signos vitales Mindray uMEC 100 mediante la simulación de variables cardiovasculares con el Pronk OxSim OX-1, verificando la medición de SpO₂, la frecuencia del pulso, la forma de onda fotopletismográfica y la respuesta de las alarmas.
+- Evaluar el funcionamiento de un monitor de signos vitales Mindray uMEC 100 mediante la simulación de variables cardiovasculares con el Pronk OxSim OX-1, verificando la medición de SpO₂, la frecuencia del pulso, la forma de onda fotopletismográfica y la respuesta de las alarmas.
 
 Objetivos específicos
 
