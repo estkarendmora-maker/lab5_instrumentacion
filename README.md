@@ -29,6 +29,7 @@ Objetivos específicos
 Se construyó primero una tabla de verificación de alarmas con las columnas límite configurado (alto/bajo), valor simulado, alarma activa (sí/no) y tiempo de respuesta. Luego se encendió el uMEC 100, se seleccionó el modo “monitor” y se conectó la pinza de SpO₂ al OxSim. Con el simulador en cada modo se registraron los valores del monitor y la forma de onda, y se calcularon los errores:
 
 Error absoluto = |valor mostrado − valor simulado|
+
 Error porcentual = (error absoluto / valor simulado) × 100
 
 Las pruebas siguieron este orden:
@@ -58,6 +59,7 @@ Saturación de oxígeno (SpO₂): el porcentaje de hemoglobina oxigenada en sang
 Frecuencia de pulso (PR): los latidos por minuto percibidos ópticamente. Se simula 40 lpm (bradicardia), 80 lpm (normal) y 140 lpm (taquicardia). Es frecuencia de pulso, no ECG, así que el monitor la mostrará como PR derivada de SpO₂.
 Índice de perfusión (PI): la relación entre la señal pulsátil y la no pulsátil. En el Modo 5 es ≈ 0,2, que representa baja perfusión.
 c. En el ámbito clínico ¿Cuáles son las tolerancias o errores máximos permitidos (EMP) para cada parámetro fisiológico mencionado en la parte (b)?
+
 <img width="1057" height="300" alt="image" src="https://github.com/user-attachments/assets/509059ff-7bd6-485c-8e08-d1f3297ee5d8" />
 El datasheet del uMEC 100 declara que el módulo de SpO₂ cumple la norma ISO 80601-2-61 y tiene una exactitud de ±2 % en adultos y pediátricos y ±3 % en neonatos entre 70 y 100 %. La precisión para pulso es de ±3 lpm entre 20 y 300 lpm cuando proviene de SpO₂. La exactitud de ±1 lpm o ±1 % para frecuencia cardíaca aparece en los datasheets de la familia (±1 lpm o ±1 %, el mayor). Verifícala en la sección ECG del datasheet del uMEC 100, porque yo la leí en documentos de modelos hermanos. 
 fd604b9f 5f6f 4df2 970d 70f284a1a772 1784126750597
