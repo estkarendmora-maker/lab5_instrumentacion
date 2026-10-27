@@ -7,88 +7,106 @@ Karen Dayanna Mora Segura
 Sofia Alejandra Cardona Cruz
 
 ### Introduccion
-En esta práctica se evaluó el desempeño técnico y funcional de un monitor de signos vitales Mindray uMEC 100 mediante un simulador óptico de pulsioximetría Pronk OxSim OX-1. En el entorno clínico es fundamental que estos monitores midan de forma continua la saturación periférica de oxígeno (SpO₂) y la frecuencia de pulso, y que generen alarmas cuando las variaciones representen un peligro inmediato para el paciente [1], [2]. Como no es posible ni ético inducir hipoxia o arritmias en una persona para verificar estas funciones, se usan simuladores que reproducen condiciones fisiológicas y patológicas conocidas [3].
+En esta práctica de laboratorio se evaluó el funcionamiento de un sistema de monitoreo de variables cardiovasculares y hemodinámicas mediante el uso de un monitor de signos vitales Mindray uMEC 100 y un simulador de oximetría de pulso Pronk OxSim OX-1. Estos equipos permiten estudiar la respuesta de los sistemas de monitorización ante diferentes valores de saturación periférica de oxígeno (SpO₂) y frecuencia del pulso, así como verificar el funcionamiento de sus alarmas [1], [2].
 
-El OxSim OX-1 se conecta a la pinza del monitor y reproduce cinco combinaciones predefinidas de saturación, frecuencia de pulso e índice de perfusión (PI) [3]. Con estas se puede comprobar si el monitor muestra valores dentro de su exactitud declarada, si dispara las alarmas al cruzar los límites configurados y cómo se comporta la onda fotopletismográfica ante una perfusión baja. La exactitud del uMEC 100 en SpO₂ está especificada por el fabricante [2], y el desempeño de los pulsioxímetros se evalúa bajo la norma ISO 80601-2-61 y las recomendaciones de la FDA [4], [5].
+La monitorización de signos vitales es fundamental en el entorno clínico, ya que facilita la identificación de cambios fisiológicos que pueden requerir atención. Entre las variables evaluadas se encuentra la SpO₂, que estima el porcentaje de hemoglobina arterial saturada de oxígeno, y la frecuencia del pulso, expresada en latidos por minuto. La interpretación de estas variables debe considerar las características del paciente, las condiciones de medición y las especificaciones técnicas del equipo [1], [3].
 
-La práctica permitió operar un monitor multiparamétrico, configurar alarmas, calcular errores absolutos y porcentuales, e identificar las limitaciones de un simulador óptico frente a la complejidad de un paciente real.
+Para el desarrollo de la práctica se empleó el simulador OxSim OX-1, que genera señales ópticas para probar sistemas de pulsioximetría en diferentes condiciones de saturación, frecuencia del pulso y perfusión. Se utilizaron escenarios que representan una frecuencia cardíaca baja, una saturación reducida, valores elevados de saturación y una condición de baja perfusión. Las señales producidas por el simulador se detectaron mediante el sensor de SpO₂ conectado al monitor uMEC 100, permitiendo observar los valores mostrados y la forma de onda fotopletismográfica [2].
+
+Finalmente, se analizó la respuesta del monitor ante los límites de alarma establecidos y se consideró la diferencia entre los valores de referencia del simulador y las lecturas obtenidas. Esta práctica permitió relacionar los conocimientos de instrumentación biomédica, medición fisiológica y verificación funcional de equipos médicos, reconociendo la importancia de evaluar su desempeño antes de utilizarlos en un entorno asistencial.
 
 Objetivo general
 
-*Operar el simulador Pronk OxSim OX-1 y el monitor de signos vitales uMEC 100 para realizar pruebas funcionales de medición y de alarmas.
+*Evaluar el funcionamiento de un monitor de signos vitales Mindray uMEC 100 mediante la simulación de variables cardiovasculares con el Pronk OxSim OX-1, verificando la medición de SpO₂, la frecuencia del pulso, la forma de onda fotopletismográfica y la respuesta de las alarmas.
 
 Objetivos específicos
 
-*Identificar los modos de operación de un simulador de parámetros hemodinámicos (Pronk OxSim OX-1) y poner el uMEC 100 en modo “monitor”.
-*Verificar los límites de medición y la activación de alarmas del monitor mediante la simulación de SpO₂ y frecuencia de pulso.
-*Calcular los errores absoluto y porcentual de cada variable frente a los valores simulados.
-*Interpretar las variaciones de la onda fotopletismográfica y de los parámetros asociadas a estados fisiológicos y patológicos (bradicardia, taquicardia, hipoxia, baja perfusión).
-
+- Identificar las características y funciones principales del monitor de signos vitales uMEC 100 y del simulador Pronk OxSim OX-1.
+- Configurar el monitor para visualizar las variables fisiológicas y las señales requeridas durante la práctica.
+- Simular diferentes valores de saturación de oxígeno, frecuencia del pulso e índice de perfusión mediante el OxSim OX-1.
+- Verificar la activación de las alarmas del monitor ante valores de SpO₂ y frecuencia del pulso que superen los límites configurados.
+- Calcular los errores absolutos y porcentuales entre los valores de referencia del simulador y los valores indicados por el monitor.
+- Observar los cambios de la onda fotopletismográfica en condiciones normales y de baja perfusión.
+- Analizar las limitaciones del simulador y la importancia de la verificación técnica de los monitores de signos vitales.
 ## Metodologia 
 ### Montaje y prueba inicial 
-Se construyó primero una tabla de verificación de alarmas con las columnas límite configurado (alto/bajo), valor simulado, alarma activa (sí/no) y tiempo de respuesta. Luego se encendió el uMEC 100, se seleccionó el modo “monitor” y se conectó la pinza de SpO₂ al OxSim. Con el simulador en cada modo se registraron los valores del monitor y la forma de onda, y se calcularon los errores:
+Para realizar la práctica se dispuso de un monitor de signos vitales Mindray uMEC 100 y un simulador de parámetros de oximetría de pulso Pronk OxSim OX-1. Inicialmente, se verificó el estado general de los equipos y se encendió el monitor para acceder a la pantalla de visualización de las variables fisiológicas.
+
+Posteriormente, se conectó el sensor de pulsioximetría al simulador OxSim OX-1, ubicándolo sobre la sección diseñada para simular el dedo. Se seleccionó el modo de simulación requerido y se verificó la compatibilidad del sensor con el simulador. El OxSim genera señales ópticas que permiten comprobar la respuesta del sistema de pulsioximetría sin necesidad de utilizar un paciente real.
+
+Una vez preparado el montaje, se observaron en la pantalla del uMEC 100 los valores de SpO₂ y frecuencia del pulso, junto con la forma de onda fotopletismográfica. Se registraron los valores mostrados para compararlos con los valores de referencia establecidos por el simulador.
+
+## 3.2. Configuración y verificación de las variables
+
+Se configuraron diferentes escenarios de simulación de acuerdo con la guía de laboratorio: una condición de SpO₂ de 95 % y frecuencia del pulso de 40 bpm; una condición de SpO₂ de 85 % y frecuencia de 80 bpm; una condición de SpO₂ de 99 % con baja perfusión; y una condición de frecuencia del pulso de 140 bpm con SpO₂ de 98 %.
+
+Para verificar las alarmas, se establecieron los límites de SpO₂ indicados en la guía. Primero, se configuró un límite inferior de 90 % y se observó la respuesta del monitor ante una saturación simulada de 85 %. Después, se configuró un límite superior de 97 % y se evaluó la respuesta ante una saturación simulada de 99 % en modo de baja perfusión. Finalmente, se comprobó la respuesta de la alarma de frecuencia elevada ante una frecuencia simulada de 140 bpm.
+
+En cada escenario se registró si la alarma visual y sonora se activó, así como el tiempo transcurrido hasta su aparición. También se observó si la forma de onda fotopletismográfica presentó cambios o distorsiones durante las simulaciones.
+
+## 3.3. Cálculo de errores
+
+Para comparar los valores indicados por el monitor con los valores de referencia del simulador, se emplearon el error absoluto y el error porcentual. El error absoluto se calculó mediante la diferencia entre el valor medido y el valor de referencia, mientras que el error porcentual se obtuvo al dividir el error absoluto entre el valor de referencia y multiplicar el resultado por 100.
+
+Las expresiones utilizadas fueron:
 
 Error absoluto = |valor mostrado − valor simulado|
 
 Error porcentual = (error absoluto / valor simulado) × 100
 
-Las pruebas siguieron este orden:
+Finalmente, se compararon los resultados de cada escenario para analizar el comportamiento del monitor, la respuesta de las alarmas y las posibles diferencias de medición. Los resultados numéricos y los tiempos de activación deben completarse con los datos registrados durante la sesión experimental.
 
-*Bradicardia (40 lpm, SpO₂ 95 %): comparación de valores y registro de la onda.
 
-*Límite inferior de SpO₂ ajustado a 90 %, luego simulación de 80 lpm y SpO₂ 85 %: se contaron 5 s y se verificó la alarma sonora y visual.
 
-*Límite superior de SpO₂ ajustado a 97 %, luego simulación de SpO₂ 99 % con baja perfusión: se contaron 5 s, se verificó la alarma y se observó si la onda se distorsionaba.
-
-*SpO₂ 98 % con taquicardia (140 lpm): se registró la onda y se verificó si se disparaba la alarma de frecuencia elevada.
-
-*Documentar el procedimiento y los resultados en un repositorio de GitHub con trabajo colaborativo.
 
 ## Parte A
 a. ¿Cómo colocar el uMEC 100 en modo “monitor”?
 
-El modo de monitoreo es el modo clínico más usado para vigilar pacientes. No requiere ningún comando: el uMEC 100 entra en él automáticamente al encenderse. El manual describe otros tres modos que se deben distinguir de este:
-<img width="1082" height="470" alt="image" src="https://github.com/user-attachments/assets/c45f8dc7-1838-4db5-9f75-385843e11f02" />
+De acuerdo con el manual de operación de Mindray, el término Monitor corresponde a uno de los modos de filtrado de la señal electrocardiográfica (ECG). Este modo está diseñado para condiciones normales de monitorización y suaviza la señal para facilitar su visualización [1]. 
+00-uMEC-Main.docx
 
+
+El procedimiento es el siguiente:
+1. Encender el monitor Mindray uMEC 100 y esperar a que finalice la inicialización.
+2. Acceder a la pantalla principal de monitorización.
+3. Seleccionar el área de parámetros o la forma de onda del ECG para abrir el menú de configuración.
+4. Ingresar a ECG Setup (configuración de ECG).
+5. Seleccionar la opción Filter (filtro).
+6. Elegir Monitor entre las opciones disponibles.
+7. Verificar que la forma de onda del ECG se visualice correctamente y que el filtro seleccionado aparezca indicado en pantalla.
+Este ajuste no debe confundirse con un modo general de funcionamiento del monitor: modifica el procesamiento de la señal ECG. La guía de laboratorio utiliza la expresión «modo monitor», por lo que conviene confirmar con el docente si se refiere específicamente a este filtro.
 
 
 b. ¿Qué tipo de parámetros o variables fisiológicas pueden simularse con el Pronk OxSim OX-1? Explique cada uno?
-El OX-1 es un simulador óptico de SpO₂ con cinco modos fijos (Modo 1: 85 %, 80 lpm, PI ≈ 2,0; Modo 2: 95 %, 40 lpm, PI ≈ 2,0; Modo 3: 98 %, 80 lpm, PI ≈ 2,0; Modo 4: 98 %, 140 lpm, PI ≈ 2,0; Modo 5: 99 %, 80 lpm, PI ≈ 0,2). Simula tres variables: 
-medwrench
+El Pronk OxSim OX-1 es un simulador óptico diseñado para verificar el funcionamiento de los sistemas de pulsioximetría. Permite generar cinco escenarios predefinidos que combinan diferentes valores de saturación de oxígeno, frecuencia del pulso e índice de perfusión [2], [3].
+Las variables que permite simular son:
 
-Saturación de oxígeno (SpO₂): el porcentaje de hemoglobina oxigenada en sangre arterial. Valores de 85 % representan hipoxemia y de 98 a 99 %, un valor normal o alto.
-Frecuencia de pulso (PR): los latidos por minuto percibidos ópticamente. Se simula 40 lpm (bradicardia), 80 lpm (normal) y 140 lpm (taquicardia). Es frecuencia de pulso, no ECG, así que el monitor la mostrará como PR derivada de SpO₂.
-Índice de perfusión (PI): la relación entre la señal pulsátil y la no pulsátil. En el Modo 5 es ≈ 0,2, que representa baja perfusión.
+1. Saturación periférica de oxígeno (SpO₂), unidad en (%)
+
+Representa la proporción estimada de hemoglobina arterial saturada de oxígeno. El OxSim OX-1 dispone de escenarios con saturaciones de 85 %, 95 %, 98 % y 99 %. Estos valores permiten comprobar si el monitor responde correctamente a diferentes niveles de saturación, incluidos valores bajos y altos.
+
+2. Frecuencia del pulso, unidad en (bpm)
+
+Indica la cantidad de pulsaciones detectadas por minuto. El simulador genera frecuencias de 40, 80 y 140 bpm en sus modos predefinidos. Estos valores permiten evaluar la respuesta del monitor ante una frecuencia baja, una frecuencia habitual y una frecuencia elevada.
+
+3. Índice de perfusión (PI)
+
+Es un indicador relacionado con la intensidad de la señal pulsátil periférica detectada por el sensor. El OxSim utiliza un índice aproximado de 2,0 en sus modos habituales y de 0,2 en el modo Low Perfusion. Este último permite evaluar el comportamiento del pulsioxímetro cuando la señal óptica pulsátil es débil.
+
 c. En el ámbito clínico ¿Cuáles son las tolerancias o errores máximos permitidos (EMP) para cada parámetro fisiológico mencionado en la parte (b)?
 
-<img width="1075" height="177" alt="image" src="https://github.com/user-attachments/assets/f145dc4d-a678-47e7-ae1c-831bd27f2403" />
-
-
-El datasheet del uMEC 100 declara que el módulo de SpO₂ cumple la norma ISO 80601-2-61 y tiene una exactitud de ±2 % en adultos y pediátricos y ±3 % en neonatos entre 70 y 100 %. La precisión para pulso es de ±3 lpm entre 20 y 300 lpm cuando proviene de SpO₂. La exactitud de ±1 lpm o ±1 % para frecuencia cardíaca aparece en los datasheets de la familia (±1 lpm o ±1 %, el mayor). Verifícala en la sección ECG del datasheet del uMEC 100, porque yo la leí en documentos de modelos hermanos. 
-fd604b9f 5f6f 4df2 970d 70f284a1a772 1784126750597
- +2
-
-La referencia regulatoria para SpO₂ es la guía de la FDA para pulsioxímetros, que recomienda las pruebas de la cláusula 201.12.1 de la norma ISO 80601-2-61. En la práctica los pulsioxímetros recientes autorizados por la FDA tienen una exactitud (Arms) de 2 a 3 % respecto a gasometría arterial. Un artículo en PMC recuerda que un Arms ≤ 3 % en el rango 70–100 % es el criterio aceptado por ISO y FDA. 
-GUIDANCE DOCUMENT
- +2
-
-Todos los valores del OX-1 (85 a 99 %) caen dentro del rango especificado (70–100 %), así que los ±2 % son un criterio válido para tus tablas. Dos matices:
-
-Norma ISO. La edición ISO 80601-2-61:2017 aparece como retirada y tiene una nueva edición, ISO 80601-2-61:2026. Menciona ambas si la citas. 
-
-Tolerancia del simulador. No encontré la tolerancia propia del OX-1, y los errores que calcules incluyen la del simulador. Búscala en su manual de operación.
+Para responder esta pregunta correctamente, es necesario distinguir entre la tolerancia del simulador, la precisión del sensor de pulsioximetría y la exactitud del monitor. No existe un único error máximo universal que pueda aplicarse a todos los equipos, sensores y condiciones clínicas.
+<img width="1068" height="357" alt="image" src="https://github.com/user-attachments/assets/885c9b9a-c829-4757-aa93-0750d3c82218" />
+Las tolerancias de SpO₂ y frecuencia del pulso proceden de la documentación técnica del fabricante del OxSim OX-1 [2], [3]
+Consideraciones para la interpretación clínica:
+- SpO₂: una tolerancia de ±2 puntos porcentuales alrededor de una referencia de 95 % equivale a un intervalo de 93 % a 97 %. Este ejemplo ilustra la tolerancia numérica, pero no significa que todas las lecturas clínicas deban aceptarse automáticamente dentro de ese intervalo. En condiciones de baja saturación o perfusión deficiente, el desempeño puede cambiar.
+- Frecuencia del pulso: si se toma como referencia una frecuencia simulada de 40 bpm y se aplica la tolerancia del simulador de menos de 1 bpm, el intervalo de referencia sería aproximadamente de 39 a 41 bpm. Esta comparación evalúa la salida del simulador; la aceptación de la lectura del monitor debe considerar también su propia especificación.
+- Índice de perfusión: no se debe asignar un EMP numérico sin una especificación verificable del fabricante para la variable y el equipo que se están evaluando. En esta práctica, la condición de baja perfusión sirve principalmente para comprobar si el monitor mantiene una lectura y una onda fotopletismográfica interpretables.
+El manual de Mindray también establece especificaciones propias para las mediciones del monitor. Por ejemplo, para la frecuencia cardíaca obtenida por ECG, especifica una exactitud de ±1 bpm o ±1 %, el valor que resulte mayor [1]. Esa especificación corresponde a la medición por ECG y no debe confundirse directamente con la exactitud del pulso obtenido por el canal de SpO₂.
 
 ## Bibliografia
-[1] Shenzhen Mindray Bio-Medical Electronics Co., “uMEC 60/70/80/100/120/150 Patient Monitor – Operator’s Manual,” Rev. 2.0, 2023. Disponible: https://storage.mtender.gov.md/get/e4fcb778-7f7a-4208-b3f4-ba0208f27fa1-1780383669651
-
-[2] Mindray, “uMEC 100/120/150 Patient Monitor – Data Sheet,” 2023. Disponible: https://storage.mtender.gov.md/get/fd604b9f-5f6f-4df2-970d-70f284a1a772-1784126750597
-
-[3] Pronk Technologies, “OX-1 OxSim – Miniaturized Optical SpO₂ Pulse Oximeter Tester,” MedWrench. Disponible: https://www.medwrench.com/equipment/3862/pronk-technologies-ox-1-oxsim (sitio del fabricante: https://www.pronktech.com)
-
-[4] U.S. FDA, “Pulse Oximeters – Premarket Notification Submissions [510(k)s],” Guidance for Industry and FDA Staff, 2013. Disponible: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/pulse-oximeters-premarket-notification-submissions-510ks-guidance-industry-and-food-and-drug
-
-[5] ISO, “ISO 80601-2-61:2017 – Medical electrical equipment, Part 2-61: Basic safety and essential performance of pulse oximeter equipment.” Disponible: https://www.iso.org/standard/67963.html
-
-[6] D. Bennett et al. (estudio de exactitud de pulsioxímetros, criterio Arms ≤ 3 %), PMC. Disponible: https://pmc.ncbi.nlm.nih.gov/articles/PMC8423509. No vi la lista de autores, completa esa parte antes de citarlo.
-
-[7] Medical IT, “Metrología Biomédica – OX-SIM” (la referencia [3] de tu guía). Disponible: https://www.medicalitech.com/producto/ox-sim/
+[1] Shenzhen Mindray Bio-Medical Electronics Co., Ltd., uMEC10/uMEC12/uMEC15 Patient Monitor Operator’s Manual, ene. 2016. [En línea]. 
+[2] Pronk Technologies, OxSim SpO₂ Simulator: Operator’s Manual, Rev. O, 18 jul. 2017. [En línea]. 
+[3] Pronk Technologies, “OX-1 OxSim® Optical SpO₂ Pulse Oximeter Simulator,” ficha técnica del fabricante. [En línea]. 
+[4] International Organization for Standardization (ISO), ISO 80601-2-61:2026: Medical electrical equipment—Part 2-61: Particular requirements for basic safety and essential performance of pulse oximeter equipment, 3.ª ed., abr. 2026. [En línea]. 
+[5] U.S. Food and Drug Administration (FDA), “Pulse Oximeters,” información sobre el uso, la precisión y las limitaciones de los pulsioxímetros. [En línea].
