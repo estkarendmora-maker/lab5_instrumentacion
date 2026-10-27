@@ -75,7 +75,20 @@ GUIDANCE DOCUMENT
 Todos los valores del OX-1 (85 a 99 %) caen dentro del rango especificado (70–100 %), así que los ±2 % son un criterio válido para tus tablas. Dos matices:
 
 Norma ISO. La edición ISO 80601-2-61:2017 aparece como retirada y tiene una nueva edición, ISO 80601-2-61:2026. Menciona ambas si la citas. 
-iso
+
 Tolerancia del simulador. No encontré la tolerancia propia del OX-1, y los errores que calcules incluyen la del simulador. Búscala en su manual de operación.
 
+## Bibliografia
+[1] Shenzhen Mindray Bio-Medical Electronics Co., “uMEC 60/70/80/100/120/150 Patient Monitor – Operator’s Manual,” Rev. 2.0, 2023. Disponible: https://storage.mtender.gov.md/get/e4fcb778-7f7a-4208-b3f4-ba0208f27fa1-1780383669651
 
+[2] Mindray, “uMEC 100/120/150 Patient Monitor – Data Sheet,” 2023. Disponible: https://storage.mtender.gov.md/get/fd604b9f-5f6f-4df2-970d-70f284a1a772-1784126750597
+
+[3] Pronk Technologies, “OX-1 OxSim – Miniaturized Optical SpO₂ Pulse Oximeter Tester,” MedWrench. Disponible: https://www.medwrench.com/equipment/3862/pronk-technologies-ox-1-oxsim (sitio del fabricante: https://www.pronktech.com)
+
+[4] U.S. FDA, “Pulse Oximeters – Premarket Notification Submissions [510(k)s],” Guidance for Industry and FDA Staff, 2013. Disponible: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/pulse-oximeters-premarket-notification-submissions-510ks-guidance-industry-and-food-and-drug
+
+[5] ISO, “ISO 80601-2-61:2017 – Medical electrical equipment, Part 2-61: Basic safety and essential performance of pulse oximeter equipment.” Disponible: https://www.iso.org/standard/67963.html
+
+[6] D. Bennett et al. (estudio de exactitud de pulsioxímetros, criterio Arms ≤ 3 %), PMC. Disponible: https://pmc.ncbi.nlm.nih.gov/articles/PMC8423509. No vi la lista de autores, completa esa parte antes de citarlo.
+
+[7] Medical IT, “Metrología Biomédica – OX-SIM” (la referencia [3] de tu guía). Disponible: https://www.medicalitech.com/producto/ox-sim/
