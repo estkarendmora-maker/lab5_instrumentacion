@@ -161,6 +161,14 @@ En el caso del Pronk OxSim OX-1, el modo Low Perfusion permite evaluar este comp
 
 [7] International Electrotechnical Commission. (2010). Medical electrical equipment—Part 2-4: Particular requirements for the basic safety and essential performance of cardiac defibrillators (IEC 60601-2-4:2010). IEC. https://www.chamber.org.il/media/159674/%D7%98%D7%99%D7%95%D7%98%D7%94-%D7%9C%D7%AA%D7%A7%D7%9F-60601-24.pdf
 
+[10] Pronk Technologies. (2017). OxSim SpO₂ simulator: Operator's manual (Rev. O). https://www.pronktech.com/wp-content/uploads/2015/02/501-0603-OX-1-Op-Manual-Rev-O.pdf
+
+[11] Pronk Technologies. (s. f.). OX-1 OxSim® optical SpO₂ pulse oximeter tester features. https://www.pronktech.com/wp-content/uploads/2020/03/OX-1-OxSim-Pulse-Oximeter-Simulator-Features.pdf
+
+[12] U.S. Food and Drug Administration. (s. f.). Pulse oximeter basics. https://www.fda.gov/consumers/consumer-updates/pulse-oximeter-basics
+
+
+
 [8] Shenzhen Mindray Bio-Medical Electronics Co., Ltd. (2025). BeneHeart D30 series defibrillator/monitor: Service manual (Rev. 7.0). https://www.mindray.com/content/dam/xpace/en_gb/resources/downloads/education/education-d30-d60/0656B_International%20Mindray%20%28Non-FDA%29%20Service%20Manual_Full%201.pdf
 
 [9] U.S. Food and Drug Administration. (2025). Pulse oximeters. https://www.fda.gov/medical-devices/products-and-medical-procedures/pulse-oximeters
