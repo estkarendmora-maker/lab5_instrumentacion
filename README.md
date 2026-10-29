@@ -143,7 +143,13 @@ En el caso del Pronk OxSim OX-1, el modo Low Perfusion permite evaluar este comp
 
 
 
-## Conclusión
+## Conclusión  
+
+
+La práctica de laboratorio permitió evaluar el funcionamiento del monitor de signos vitales Mindray uMEC 100 mediante el simulador Pronk OxSim OX-1, analizando su capacidad para medir la frecuencia cardíaca y la saturación periférica de oxígeno (SpO₂) en diferentes condiciones fisiológicas. Los resultados evidenciaron que el monitor presentó lecturas cercanas a los valores simulados en varias de las pruebas realizadas y respondió mediante alarmas visuales y sonoras ante condiciones de desaturación. Sin embargo, se observaron algunas diferencias en las mediciones, especialmente durante la simulación de baja perfusión, lo que demuestra que la calidad de la señal pulsátil puede influir en la precisión de los valores registrados.
+
+Estos hallazgos permiten reconocer la utilidad de los simuladores biomédicos para verificar el desempeño de los equipos de monitoreo e identificar posibles errores que podrían afectar la interpretación de los parámetros fisiológicos. Asimismo, se evidenció la necesidad de evaluar tanto la precisión de las mediciones como el funcionamiento de los sistemas de alarma para favorecer un monitoreo confiable. Como siguiente paso, se propone realizar mediciones repetidas bajo diferentes condiciones de perfusión y frecuencia cardíaca, con el fin de analizar la repetibilidad de los resultados, cuantificar los tiempos de respuesta de las alarmas y establecer una evaluación más completa del desempeño del monitor.
+
 
 
 ## Bibliografia
