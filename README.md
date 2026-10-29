@@ -108,6 +108,42 @@ El manual de Mindray también establece especificaciones propias para las medici
 
 ## Análisis de resultados  
 ### Análisis 1: Evalúe estadísticamente las diferencias entre los valores de energía de referencia y suministrados por el desfibrilador  
+La evaluación de la energía suministrada por el desfibrilador Mindray BeneHeart D30 permite determinar la correspondencia entre los valores seleccionados durante la configuración del equipo y la energía efectivamente entregada durante la descarga. Para realizar esta comparación, es necesario considerar el error absoluto, el error porcentual y, cuando se dispone de mediciones repetidas, la media y la desviación estándar. Estos indicadores permiten identificar posibles desviaciones sistemáticas y variaciones entre descargas, aspectos fundamentales para verificar el desempeño del desfibrilador y su confiabilidad durante procedimientos de reanimación [6], [7].  
+
+El error absoluto se obtiene mediante la diferencia entre la energía medida y la energía de referencia, expresada en julios (J), mientras que el error porcentual permite determinar la magnitud relativa de esta diferencia. Adicionalmente, la desviación estándar permite establecer la dispersión de las mediciones respecto al promedio. De acuerdo con los criterios de exactitud de la norma IEC 60601-2-4, se considera una tolerancia de ±15 % o ±3 J, tomando el valor mayor, respecto a la energía nominal correspondiente a las condiciones de prueba [7]. Por esta razón, no basta con comprobar que el desfibrilador realiza una descarga, sino que también resulta necesario verificar que la energía entregada se encuentre dentro de los límites establecidos.  
+
+Las diferencias que puedan presentarse entre la energía seleccionada y la medida pueden relacionarse con la impedancia de la carga de prueba, las características de la forma de onda bifásica y las tolerancias propias del sistema de medición. El BeneHeart D30 emplea una forma de onda bifásica truncada exponencial con compensación de impedancia, por lo que las condiciones eléctricas de la prueba deben considerarse al interpretar los resultados [8]. En consecuencia, la evaluación estadística permite establecer la exactitud y repetibilidad del equipo, aunque la determinación de su conformidad requiere comparar los resultados experimentales con las especificaciones del fabricante.  
+
+
+### Análisis 2: Describa la relación entre la forma de onda que se visualiza en el  D30 y la frecuencia cardíaca/saturación periférica de oxígeno   
+La visualización de las señales fisiológicas en el desfibrilador Mindray BeneHeart D30 permite relacionar las características temporales de las ondas con los parámetros de frecuencia cardíaca (FC) y saturación periférica de oxígeno (SpO₂). En el caso del electrocardiograma, la frecuencia cardíaca se determina principalmente a partir del intervalo entre complejos QRS consecutivos. Cuando la frecuencia aumenta, los intervalos R-R disminuyen y los complejos aparecen más próximos entre sí; por el contrario, cuando la frecuencia disminuye, aumenta la separación temporal entre los latidos. Esta relación facilita la identificación de condiciones como bradicardia y taquicardia durante la monitorización [8].  
+
+Por otra parte, la onda fotopletismográfica asociada a la medición de SpO₂ representa las variaciones de volumen sanguíneo periférico producidas por cada pulsación arterial. La frecuencia de repetición de sus pulsos permite estimar la frecuencia del pulso, mientras que la saturación de oxígeno se calcula mediante el análisis de la absorción de luz roja e infrarroja por la hemoglobina. Por lo tanto, la SpO₂ no se obtiene directamente de la altura de la onda, sino del procesamiento de las señales ópticas captadas por el sensor [9].  
+
+En condiciones de baja perfusión, la amplitud de la señal fotopletismográfica puede disminuir, dificultando la identificación de los pulsos y generando fluctuaciones en las mediciones. Asimismo, factores como el movimiento, la circulación periférica reducida y la colocación inadecuada del sensor pueden afectar la estabilidad de la señal y la confiabilidad de los valores mostrados [9]. De esta manera, la observación conjunta de las ondas de ECG y pletismografía permite complementar la interpretación de la frecuencia cardíaca y la saturación de oxígeno, así como reconocer posibles alteraciones o interferencias durante el monitoreo.  
+
+
+
+## Discusión  
+**• Pregunta 1: ¿Cuál es el principio de operación del Pronk OxSim OX-1 para simular una onda pulsátil?**  
+
+El simulador Pronk OxSim OX-1 funciona mediante un principio de simulación óptica que permite reproducir las señales luminosas asociadas al flujo sanguíneo pulsátil, con el propósito de evaluar el funcionamiento de los sistemas de pulsioximetría. Su operación consiste en detectar los pulsos de luz roja e infrarroja emitidos por el sensor de SpO₂, bloquearlos y generar nuevas señales ópticas controladas que representan las variaciones de absorción de luz producidas por la sangre arterial durante cada ciclo cardíaco [10].
+
+El dispositivo utiliza una combinación de mecanismos electrónicos, ópticos y mecánicos para reproducir diferentes condiciones fisiológicas mediante la modificación de la frecuencia de pulsación, la saturación de oxígeno y el índice de perfusión. De esta manera, el monitor interpreta las señales generadas por el simulador como si provinieran del tejido de un paciente. Este principio se fundamenta en la relación entre los componentes pulsátiles (AC) y no pulsátiles (DC) de las señales roja e infrarroja, cuya comparación permite estimar la saturación periférica de oxígeno [10].
+
+El OxSim OX-1 dispone de cinco modos de simulación preestablecidos que permiten representar diferentes condiciones fisiológicas, incluyendo bradicardia, taquicardia, disminución de la saturación y baja perfusión. Estos escenarios facilitan la verificación de la precisión de las mediciones y del funcionamiento de las alarmas de los monitores de signos vitales [11].
+
+**• Pregunta 2: ¿Por qué la SpO2 baja puede ser un falso positivo (falsa alarma) en una situación de mala perfusión?**  
+
+Una lectura baja de SpO₂ puede generar una falsa alarma durante una situación de mala perfusión debido a que la pulsioximetría depende de la detección de las variaciones de volumen sanguíneo arterial en el tejido periférico. Cuando existe una reducción del flujo sanguíneo, como puede ocurrir durante hipotensión, vasoconstricción o disminución de la circulación periférica, la amplitud de la señal fotopletismográfica disminuye, dificultando la identificación de su componente pulsátil [12].
+
+En estas condiciones, la señal detectada por el sensor puede presentar una menor relación señal-ruido, lo que aumenta la posibilidad de interferencias y errores en el cálculo de la saturación de oxígeno. Como consecuencia, el monitor puede mostrar valores inferiores a los reales, generar lecturas inestables o activar una alarma de desaturación, aunque la oxigenación arterial del paciente no haya disminuido verdaderamente. Sin embargo, una lectura baja durante la mala perfusión no siempre constituye una falsa alarma, ya que también puede corresponder a una hipoxemia real [12].
+
+En el caso del Pronk OxSim OX-1, el modo Low Perfusion permite evaluar este comportamiento mediante la simulación de una saturación de oxígeno del 99 %, una frecuencia de pulso de 80 bpm y un índice de perfusión aproximado de 0,2. Este último valor representa una señal pulsátil de baja intensidad, que puede dificultar la medición de algunos oxímetros. Por lo tanto, las diferencias observadas entre el valor programado y el registrado por el monitor pueden relacionarse con la capacidad del equipo y del sensor para procesar señales de baja amplitud [10], [11].
+
+
+
+## Conclusión
 
 
 ## Bibliografia
@@ -120,3 +156,13 @@ El manual de Mindray también establece especificaciones propias para las medici
 [4] International Organization for Standardization (ISO), ISO 80601-2-61:2026: Medical electrical equipment—Part 2-61: Particular requirements for basic safety and essential performance of pulse oximeter equipment, 3.ª ed., abr. 2026. [En línea]. 
 
 [5] U.S. Food and Drug Administration (FDA), “Pulse Oximeters,” información sobre el uso, la precisión y las limitaciones de los pulsioxímetros. [En línea].
+
+[6] Fluke Biomedical. (s. f.). Impulse 7000DP defibrillator analyzer. Fluke Biomedical. https://www.flukebiomedical.com/products/defibrillator-analyzers/impulse-7000dp-defibrillator-analyzer
+
+[7] International Electrotechnical Commission. (2010). Medical electrical equipment—Part 2-4: Particular requirements for the basic safety and essential performance of cardiac defibrillators (IEC 60601-2-4:2010). IEC. https://www.chamber.org.il/media/159674/%D7%98%D7%99%D7%95%D7%98%D7%94-%D7%9C%D7%AA%D7%A7%D7%9F-60601-24.pdf
+
+[8] Shenzhen Mindray Bio-Medical Electronics Co., Ltd. (2025). BeneHeart D30 series defibrillator/monitor: Service manual (Rev. 7.0). https://www.mindray.com/content/dam/xpace/en_gb/resources/downloads/education/education-d30-d60/0656B_International%20Mindray%20%28Non-FDA%29%20Service%20Manual_Full%201.pdf
+
+[9] U.S. Food and Drug Administration. (2025). Pulse oximeters. https://www.fda.gov/medical-devices/products-and-medical-procedures/pulse-oximeters
+
+
