@@ -103,6 +103,13 @@ Consideraciones para la interpretación clínica:
 - Índice de perfusión: no se debe asignar un EMP numérico sin una especificación verificable del fabricante para la variable y el equipo que se están evaluando. En esta práctica, la condición de baja perfusión sirve principalmente para comprobar si el monitor mantiene una lectura y una onda fotopletismográfica interpretables.
 El manual de Mindray también establece especificaciones propias para las mediciones del monitor. Por ejemplo, para la frecuencia cardíaca obtenida por ECG, especifica una exactitud de ±1 bpm o ±1 %, el valor que resulte mayor [1]. Esa especificación corresponde a la medición por ECG y no debe confundirse directamente con la exactitud del pulso obtenido por el canal de SpO₂.
 
+
+
+
+## Análisis de resultados  
+### Análisis 1: Evalúe estadísticamente las diferencias entre los valores de energía de referencia y suministrados por el desfibrilador  
+
+
 ## Bibliografia
 [1] Shenzhen Mindray Bio-Medical Electronics Co., Ltd., uMEC10/uMEC12/uMEC15 Patient Monitor Operator’s Manual, ene. 2016. [En línea]. 
 
