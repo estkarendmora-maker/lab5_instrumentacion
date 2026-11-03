@@ -106,7 +106,14 @@ El manual de Mindray también establece especificaciones propias para las medici
 
 # PARTE B. Resultados experimentales
 
-Verificar el funcionamiento del monitor de signos vitales Mindray uMEC 100 simulando diferentes condiciones fisiológicas con el simulador Pronk OxSim OX-1, donde se evalua la respuesta de las alarmas visuales y sonoras, la señal fotopletismográfica y la precisión de las mediciones de frecuencia cardíaca y saturación periférica de oxígeno (SpO2).
+Con la finalidad de verificar el funcionamiento del monitor de signos vitales Mindray uMEC 100 simulando diferentes condiciones fisiológicas con el simulador Pronk OxSim OX-1, donde se evalua la respuesta de las alarmas visuales y sonoras, la señal fotopletismográfica y la precisión de las mediciones de frecuencia cardíaca y saturación periférica de oxígeno (SpO2).
+
+
+Durante la configuración inicial se realizaron pruebas con un primer monitor Mindray uMEC 100, sin embargo, lecturas anormales a comparación del Sensor de pulsioximetría, que no permitían garantizar la confiabilidad de las mediciones. Por esto se decidió reemplazar el equipo y continuar el procedimiento experimental con un segundo monitor Mindray uMEC 100. Estos resultados y analisis son basados en el segundo monitor  Mindray uMEC 100.
+
+
+<img width="400" alt="error" src="https://github.com/user-attachments/assets/d4b4ec6a-dd63-448e-a3bb-4a25ead71ba8" />
+*Evidencia de las condiciones anormales observadas en el monitor utilizado inicialmente*
 
 ## 2. Equipos utilizados
 
