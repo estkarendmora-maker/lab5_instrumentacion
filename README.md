@@ -228,39 +228,8 @@ $$
 | Taquicardia | FC (bpm) | 140 | 140 | 0 | 0% |
 | Taquicardia | SpO2 (%) | 98 | 98 | 0 | 0% |
 
-**Nota:** Los errores se calcularon a partir de las lecturas visibles en las fotografías. Los valores de la prueba Low Perfusion corresponden a la lectura observada de 100%, no a una lectura supuesta.
 
-## 6. Registro de tiempos de respuesta
 
-De acuerdo con el procedimiento de la guía, para las pruebas de alarma por SpO2 baja y alta se realizó una espera de 5 segundos después de ajustar el simulador.
-
-| Prueba | Tiempo de espera indicado por la guía | Observación |
-|---|---|---|
-| SpO2 baja | 5 segundos | Se verificó la alarma visual y sonora. |
-| Low Perfusion | 5 segundos | Se verificó la respuesta del monitor; falta confirmar la alarma específica. |
-
-El tiempo de espera de 5 segundos corresponde al intervalo indicado en el procedimiento experimental y no necesariamente al tiempo exacto de latencia de la alarma.
-
-## 7. Registro de señales fotopletismográficas
-
-Durante las pruebas se observó la señal fotopletismográfica (pletismografía) representada en color verde en la pantalla del Mindray uMEC 100.
-
-Esta señal permitió observar las variaciones pulsátiles asociadas a la actividad cardíaca y a la detección óptica de la señal de pulsioximetría.
-
-Se registraron las siguientes condiciones:
-
-- Bradicardia: observación de la onda durante la simulación de 40 bpm.
-- SpO2 baja: observación de la onda durante la simulación de 85%.
-- Low Perfusion: observación de la onda bajo condiciones de baja perfusión.
-- Taquicardia: observación de la onda durante la simulación de 140 bpm.
-
-## 8. Observaciones generales
-
-1. El monitor Mindray uMEC 100 permitió visualizar los valores de frecuencia cardíaca y saturación de oxígeno generados por el simulador.
-2. Durante la prueba de SpO2 baja se observó la activación de las alarmas visual y sonora al establecer un valor inferior al límite configurado.
-3. En la prueba Low Perfusion se presentó una diferencia de un punto porcentual entre el valor configurado en el simulador y el indicado por el monitor.
-4. Las formas de onda fotopletismográficas permitieron observar la respuesta del monitor ante las diferentes condiciones simuladas.
-5. La evaluación de cada alarma debe considerar tanto los valores medidos como la configuración de los límites establecidos en el monitor.
 
 
 
