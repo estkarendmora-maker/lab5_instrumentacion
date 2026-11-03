@@ -113,7 +113,7 @@ Durante la configuración inicial se realizaron pruebas con un primer monitor Mi
 
 
 <img width="400" alt="error" src="https://github.com/user-attachments/assets/d4b4ec6a-dd63-448e-a3bb-4a25ead71ba8" />
-*Evidencia de las condiciones anormales observadas en el monitor utilizado inicialmente*
+**Evidencia de las condiciones anormales observadas en el monitor utilizado inicialmente**
 
 ## 2. Equipos utilizados
 
