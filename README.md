@@ -111,9 +111,10 @@ Con la finalidad de verificar el funcionamiento del monitor de signos vitales Mi
 
 Durante la configuración inicial se realizaron pruebas con un primer monitor Mindray uMEC 100, sin embargo, lecturas anormales a comparación del Sensor de pulsioximetría, que no permitían garantizar la confiabilidad de las mediciones. Por esto se decidió reemplazar el equipo y continuar el procedimiento experimental con un segundo monitor Mindray uMEC 100. Estos resultados y analisis son basados en el segundo monitor  Mindray uMEC 100.
 
-
-<img width="400" alt="error" src="https://github.com/user-attachments/assets/d4b4ec6a-dd63-448e-a3bb-4a25ead71ba8" />
 **Evidencia de las condiciones anormales observadas en el monitor utilizado inicialmente**
+<img width="400" alt="error" src="https://github.com/user-attachments/assets/d4b4ec6a-dd63-448e-a3bb-4a25ead71ba8" />
+
+
 
 ## 2. Equipos utilizados
 
